@@ -1,10 +1,14 @@
 @font-face {
-    font-family: 'bookkk_small';
-    src: url(부크크명조_얇은글씨.ttf) format('truetype');
+    font-family: 'BookkMyungjo-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
 }
 @font-face {
-    font-family: 'bookkk_big';
-    src: url(부크크명조_굵은글씨.ttf) format('truetype');
+    font-family: 'BookkMyungjo-Lt';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
 }
 a{
     color:black;
@@ -25,7 +29,7 @@ ul{
     margin: 0;
     padding: 20px;
     padding-bottom: 10px;
-    font-family: bookkk_big;
+    font-family: 'BookkMyungjo-Bd';
     line-height: 35px;
 }
 #grid{
@@ -58,7 +62,7 @@ body{
     text-align: right;
 }
 #article{
-    font-family: bookkk_small;
+    font-family: 'BookkMyungjo-Lt';
     line-height: 30px;
     text-indent: 15px;
 }
