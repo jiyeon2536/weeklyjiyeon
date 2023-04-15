@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'bookkk_small';
+    src: url(부크크명조_얇은글씨.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'bookkk_big';
+    src: url(부크크명조_굵은글씨.ttf) format('truetype');
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+ul{
+    border-right: 1px solid gray;
+    width: 170px;
+    margin: 0;
+    padding: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    list-style: none;
+}
+#heading{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-family: bookkk_big;
+    line-height: 35px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 220px 1fr;
+}
+li{
+    height: 30px;
+}
+@media(max-width: 900px;){
+    #grid{
+    display: block;
+    }
+    h1{
+    border-bottom: none;
+    }
+    ul{
+    border-right: none;
+    }
+    #article{
+        padding-left: 15px;
+    }
+}
+body{
+    width: 900px;
+    margin: auto;
+    
+}
+.right{
+    text-align: right;
+}
+#article{
+    font-family: bookkk_small;
+    line-height: 30px;
+    text-indent: 15px;
+}
