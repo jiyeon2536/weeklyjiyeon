@@ -24,6 +24,7 @@ ul {
   padding-right: 10px;
   padding-left: 10px;
   list-style: none;
+  font-family: "BookkMyungjo-Lt";
 }
 #heading {
   text-align: center;
@@ -41,7 +42,7 @@ ul {
 li {
   height: 30px;
 }
-@media (max-width: 900px;) {
+@media (max-width: 900px) {
   #grid {
     display: block;
   }
